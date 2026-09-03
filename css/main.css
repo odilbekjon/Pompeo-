@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header__list {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.header__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: dimgray;
+}
+
+.header__card__link {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.active {
+    color: red;
+}
+
+.link_border {
+    border-right: 1px solid dimgray;
+    padding-right: 10px;
+}
+
+/* hero */
+
+.hero__section {
+    margin-top: 15px;
+    width: 100%;
+    height: 450px;
+    background-image: url('../images/hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__title {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D77474;
+}
+
+.hero__heading {
+    margin: 0;
+    width: 420px;
+}
+
+.hero__text {
+    width: 500px;
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    color: #6C6C6C;
+    margin-bottom: 40px;
+}
+
+.hero__link {
+    text-decoration: none;
+    background-color: #AC1313;
+    padding: 20px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pottery {
+    margin-top: 100px;
+}
+
+.pottery__title {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D77474;
+    display: block;
+}
+
+.pottery__heading {
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.pottery__wrapp {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.wrapper__heading {
+    width: 350px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 29px;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.wrapper__text {
+    width: 501px;
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
